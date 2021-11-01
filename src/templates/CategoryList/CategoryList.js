@@ -3,7 +3,7 @@
 import { Container, Table,Row, Col } from 'react-bootstrap';
 import { PageHeader }  from '../../components';
 import { Link }  from 'react-router-dom';
-import { withRouter } from 'react-router';
+
 const  CategoryList = (props ) => {
     
     return (
@@ -35,4 +35,4 @@ const  CategoryList = (props ) => {
     )
   }
 
-  export default withRouter(CategoryList);
+  export default CategoryList;
