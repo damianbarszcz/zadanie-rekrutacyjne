@@ -15,6 +15,7 @@ function AddProduct(props) {
         const [success , getSuccess] = useState(false);
         const [errors, setErrors] = useState([]);
 
+        // Add product
         const handleForm = (e) => {
                 e.preventDefault();
 
